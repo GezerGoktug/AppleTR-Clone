@@ -1,0 +1,125 @@
+* {
+  font-family: "Roboto";
+  list-style: none;
+}
+/*! NAVBAR SOME STYLES START  */
+nav {
+  background-color: #161617cc;
+  backdrop-filter: blur(5px);
+}
+
+nav .navbar-nav,
+#navbar-wrapper {
+  gap: 40px;
+}
+nav .nav-link {
+  font-size: 12px;
+}
+/*! NAVBAR SOME STYLES STOP  */
+/*! MAİN SECTİON BACKGROUND İMAGE STYLES START  */
+main section {
+  padding: 30px 0;
+}
+main section h1 {
+  font-size: 40px;
+}
+#sec2 {
+  background-image: url(./img/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#sec3 {
+  background-image: url(./img/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#sec4 {
+  background-image: url(./img/applewatchseries9.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 100px;
+  background-repeat: no-repeat;
+}
+#sec5 {
+  background-image: url(./img/promo_ipad__fioegapg12qi_large.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+}
+#sec6 {
+  background-image: url(./img/airpodspro.jpg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 170px;
+  background-repeat: no-repeat;
+}
+#sec7 {
+  background-image: url(./img/watchultra.png);
+  background-size: 100% auto;
+  background-position-x: center;
+  background-position-y: 80%;
+  background-repeat: no-repeat;
+}
+#sec8 {
+  background-image: url(./img/macbookpro.jpeg);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 100px;
+  background-repeat: no-repeat;
+}
+#sec9 {
+  background-image: url(./img/airtag.png);
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+}
+/*! MAİN SECTİON BACKGROUND İMAGE STYLES STOP  */
+/*! FOOTER CONTACT SECTİON SOME STYLES START  */
+#footer-contact {
+  margin: 0 7%;
+}
+/*! FOOTER CONTACT SECTİON SOME STYLES STOP  */
+@media (max-width: 1070px) {
+  #sec8 {
+    background-image: url(./img/promo_mbp__ek7p477bkp6q_small.jpg);
+    background-position-y: 0px;
+  }
+}
+/*! RESPONSİVE SOME STYLES DESİGN START  */
+@media (max-width: 968px) {
+  #footer-contact {
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  #sec1img {
+    width: 100%;
+    max-height: 300px;
+  }
+  #sec2 {
+    background-image: url(./img/iphone15pro2.jpeg);
+    background-size: contain;
+    background-position-y: bottom;
+  }
+  #sec7 {
+    background-size: 100% auto;
+    background-position-y: 70%;
+  }
+}
+@media (max-width: 468px) {
+  .header {
+    font-size: 36px !important;
+    margin-top: 50px;
+  }
+  .content {
+    font-size: 18px !important;
+  }
+  .links a {
+    font-size: 16px !important;
+  }
+}
+/*! RESPONSİVE SOME STYLES DESİGN STOP  */
